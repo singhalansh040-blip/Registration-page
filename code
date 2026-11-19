@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>>
+</head>
+<link rel="stylesheet" href="Style.css">
+
+<body>
+
+    <img src="GLA.webp">
+
+    <hr color="green">
+    <h2>Registration Form</h2>
+
+    <div class="f-box">
+        <form>
+            <div class="box">
+                <label>Frist Name</label>
+                <input type="text">
+            </div>
+
+            <div class="box">
+                <label>Last Name</label>
+                <input type="text">
+            </div>
+
+            <div class="box">
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div class="box">
+                <label>Mobile</label>
+                <input type="tel">
+            </div>
+
+            <div class="box">
+                <label>Select your Gender</label>
+                <div class="gender">
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Others"> Others
+                </div>
+            </div>
+
+            <div class="box">
+                <label>Rental Education</label>
+                <input type="text">
+            </div>
+
+            <div class="box">
+                <label>Select your interested course</label>
+                <select>
+                    <option>B.tech </option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>BBA</option>
+                    <option>M.tech</option>
+                </select>
+            </div>
+
+            <div class="ta">
+                <textarea placeholder="Write your query here..."></textarea>
+            </div>
+
+            <div class="bu">
+                <button>Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
